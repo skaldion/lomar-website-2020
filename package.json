@@ -1,0 +1,16 @@
+{
+  "name": "lomar-website-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "uglifyjs ./js/main.js -c -o ./js/main.min.js && cleancss -o ./css/main.min.css ./css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-css-cli": "^4.3.0",
+    "uglify-js": "^3.11.5"
+  }
+}
